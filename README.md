@@ -34,13 +34,17 @@ Le script vérifiera et installera automatiquement les dépendances nécessaires
 
 1. Placez vos fichiers `.txt` dans le même répertoire que le script `start.py`.
 2. Placez votre fichier musical (par exemple, `musique.mp3`) dans le même répertoire que le script.
-3. Modifiez les paramètres de volume dans le script `start.py` si nécessaire :
+3. modifier cette ligne pour inclure le fichier musical au programme : 
+```python
+fichier_musique = "Musique.mp3"
+```
+4. Modifiez les paramètres de volume dans le script `start.py` si nécessaire :
     ```python
     texte_volume = 0  # Ajustez le volume du texte ici (en dB)
     musique_volume = 1  # Ajustez le volume de la musique ici (en dB)
     ```
 
-4. Exécutez le script :
+5. Exécutez le script :
     ```sh
     python start.py
     ```
@@ -57,7 +61,7 @@ Ce projet est sous licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus de 
 
 ## Auteurs
 
-- [Votre Nom](https://github.com/votre-utilisateur)
+- [Nyx-Off](https://github.com/Nyx-Off)
 
 ---
 
